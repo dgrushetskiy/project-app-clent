@@ -1,8 +1,8 @@
 import {useSelector, useDispatch} from "react-redux";
 
-import {Badge} from 'UI/Badge';
-import {Card} from 'UI/Card';
-import {Stack} from 'UI/Stack';
+import {Badge} from 'UI/badge';
+import {Card} from 'UI/card';
+import {Stack} from 'UI/stack';
 
 import {selectFilters} from "../store/filters/filter-selectors";
 import {removeFilter, clearFilter} from "../store/filters/filter-actions";
